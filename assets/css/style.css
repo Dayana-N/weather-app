@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    color: #dfd8d8;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1,h2,h3,h4 {
+    margin: 7px;
+    text-align: center;
+}
+
+.main-container {
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1475150409808-de5542258c19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 15px 19px 31px 5px rgba(0,0,0,0.42);
+    -webkit-box-shadow: 15px 19px 31px 5px rgba(0,0,0,0.42);
+    -moz-box-shadow: 15px 19px 31px 5px rgba(0,0,0,0.42);
+    width: 400px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.search-container {
+    width: 100%;
+    margin: 0;
+    font-size: 0;
+    margin-top: 2px;
+    position: absolute;
+    top: 0;
+}
+
+#search {
+    width: 90%;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+#btn-search {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+#wrapper {
+    padding-top: 30px;
+}
+
+.img {
+    background-image: url();
+    height: 64px;
+    width: 64px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.current-stats {
+    display: flex;
+    align-items: space-between;
+}
+
+.left-col, .right-col {
+    padding: 20px;
+}
+
+.right-col {
+    text-align: right;
+}
+
+
+@media (max-width: 400px){
+    #container {
+        min-height: 380px;
+        max-width: 80%;
+    }
+
+}
