@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+
+    <div class="main-container" id="main-container">
+        <div class="container">
+            <div class="search-container">
+                <form>
+                    <input type="text" placeholder="Search" id="search" name="search">
+                    <button id="btn-search"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div id="wrapper">
+                <div class="weather-temp">
+                    <div class="img" id="img"></div>
+                    <h1><span id="temperature">17</span>° C</h1>
+                    <h2 id="condition">Partly Cloudy</h2>
+                </div>
+                <h2 id="location">Dublin, Ireland</h2>
+                <h3 id="time">20:26</h3>
+                <div class="current-stats">
+                    <div class="left-col">
+                        <p>Wind: <span id="wind">3.6</span>km/h</p>
+                        <p>Sunrise: <span id="sunrise">05:18 AM</span></p>
+                    </div>
+                    <div class="right-col">
+                        <p>UV Index: <span id="uv-index">3</span></p>
+                        <p>Sunset: <span id="sunset">09:26 PM</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/script.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/f6549ef1f7.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
