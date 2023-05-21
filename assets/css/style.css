@@ -77,7 +77,7 @@ h1 {
 
 .current-stats {
     display: flex;
-    align-items: space-between;
+    justify-content: space-around;
 }
 
 .left-col, .right-col {
